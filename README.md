@@ -19,9 +19,7 @@ Text simplification is the task of rewriting text to make it easier to read and 
 ##  Features
 
 - Arabic-specific preprocessing
-- Rule-based and ML-based simplification
 - Custom simplifier for synonyms, passive-to-active conversion, and short sentence restructuring
-- CLI and script usage
 - Evaluation tools using SARI and BLEU
 
 ---
@@ -30,7 +28,17 @@ Text simplification is the task of rewriting text to make it easier to read and 
 
 Uses a seq2seq Transformer (e.g. T5 / BART) fine-tuned on:
 - Paired Arabic corpora (complex ↔ simplified)
-- Datasets from [Shamela](https://shamela.ws/), [Arabic Wikipedia Simplified](https://ar.wikipedia.org/wiki/), etc.
+
+  
+- Datasets from The SAMER text simplification corpus which is the first manually
+annotated Arabic parallel corpus for text simplification
+targeting school-aged learners. The corpus comprises texts
+of 159K words selected from 15 publicly available Arabic
+fiction novels most of which were published between 1865
+and 1955. The corpus includes readability level annotations
+at both the document and word levels, as well as two
+simplified parallel versions for each text targeting
+learners at two different readability levels..
 
 ---
 
