@@ -43,6 +43,4 @@ learners at two different readability levels..
 
 ## 🚀 Getting Started
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
+You can find the model on hugging face : https://huggingface.co/Marwan-Kasem/textrsimp
