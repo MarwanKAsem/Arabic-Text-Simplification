@@ -1,5 +1,4 @@
 # Arabic Text Simplification
-## [ ON GOING ]
 A custom project to simplify Modern Standard Arabic (MSA) or Egyptian Colloquial Arabic (ECA) sentences for educational, assistive, or readability applications.
 
 ---
